@@ -27,3 +27,6 @@ if __name__ == "__main__":
     target = int(input())
     print(iterativeBS(arr, n, target))
     print(recursiveBS(arr, 0, n -1, target))
+    """
+    Overflow case: mid = low + (high - low) // 2
+    """

@@ -89,8 +89,8 @@ if __name__ == "__main__":
     # build(a, n)
     # print(*tree1[:20])
     # print(query(2, 4))
-    a = [0] + a
     # Keep it 1 based index
+    a = [0] + a
     # si = 1, ss = 1, se = n
     buildR(a, 1, 1, n)
 
